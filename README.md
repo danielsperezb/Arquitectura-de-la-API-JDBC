@@ -19,7 +19,7 @@ https://docs.oracle.com/javase/tutorial/jdbc/basics/index.html
 ![image](https://github.com/danielsperezb/Arquitectura-de-la-API-JDBC/assets/101849347/067aaf50-d1a9-4a27-ab69-63a35752ad57)
 
 Funcionando (Debe Open Module Settings -> Y extraer el JAR donde esta el conector que descargamos aqui: https://dev.mysql.com/downloads/connector/j/): 
-![image](https://github.com/danielsperezb/Arquitectura-de-la-API-JDBC/assets/101849347/6485aedd-66b1-44d5-b166-fc71ffb1ef5f)
+![image](https://github.com/danielsperezb/Arquitectura-de-la-API-JDBC/assets/101849347/280bec54-27c6-4ffc-8530-4ecffd36bb94)
 
 
 
