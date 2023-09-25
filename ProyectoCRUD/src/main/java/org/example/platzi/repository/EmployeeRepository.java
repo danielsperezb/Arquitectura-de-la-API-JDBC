@@ -3,6 +3,7 @@ package org.example.platzi.repository;
 import org.example.platzi.model.Employee;
 import org.example.platzi.util.DatabaseConnection;
 
+import javax.xml.crypto.Data;
 import java.sql.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -10,7 +11,9 @@ import java.util.List;
 public class EmployeeRepository implements  Repository<Employee>{
 
     //En la tabla empleado pusimos un tributo llamado curl, y lo que haremos sera hacer transacciones, para que no hayan muchas conexiones
-    private Connection myConn;
+    private Connection getConnection() throws SQLException {
+        return DatabaseConnection.getConnection();
+    }
 
     public EmployeeRepository(Connection myConn) {
         this.myConn = myConn;
