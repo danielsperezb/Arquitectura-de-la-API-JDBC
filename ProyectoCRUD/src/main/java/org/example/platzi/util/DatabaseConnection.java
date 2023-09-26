@@ -7,9 +7,9 @@ import java.sql.DriverManager;
 import java.sql.SQLException;
 
 public class DatabaseConnection {
-    private static String url = "jdbc:mysql://localhost:3306/project";
-    private static String user = "root";
-    private static String password = "";
+    private final static String url = "jdbc:mysql://localhost:3306/project";
+    private final static String user = "root";
+    private final static String password = "";
 
     private static BasicDataSource pool;
 
