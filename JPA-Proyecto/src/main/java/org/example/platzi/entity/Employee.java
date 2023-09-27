@@ -9,7 +9,7 @@ public class Employee {
     @Id
     @GeneratedValue (strategy = GenerationType.IDENTITY)
     private int id;
-    @Column (name = "fist_name")
+    @Column (name = "first_name")
     private String firstName;
     @Column (name = "pa_surname")
     private String paSurname;
